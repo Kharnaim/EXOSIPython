@@ -1,5 +1,5 @@
 import pytest
-from calculette import Calculatrice
+from app import Calculatrice
 
 def test_addition():
     calc = Calculatrice()
