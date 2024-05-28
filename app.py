@@ -9,8 +9,6 @@ class Calculatrice:
         return x * y
 
     def division(self, x, y):
-        if y == 0:
-            raise ZeroDivisionError("division by zero")
         return x / y
 
 def main():
